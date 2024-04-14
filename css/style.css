@@ -1,0 +1,538 @@
+/* General styling */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #34282C;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #34282C;
+}
+
+
+/* Home section styling */
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: calc(100vh - 120px);
+    /* Minus header height */
+    background-color: #34282C;
+}
+
+.home-content {
+    text-align: left;
+    color: #726E6D;
+    margin-left: 100px;
+}
+
+.home-content h2 {
+    color: #726E6D;
+    font-size: 40px;
+}
+
+.home-content p {
+    margin-bottom: 30px;
+}
+
+.home-content .info {
+    color: white;
+    font-size: small;
+}
+
+.home-content h1 span {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #DAA520;
+}
+
+.home-content h1 {
+    font-size: 40px;
+}
+
+.home-content .subtitle span {
+    color: #DAA520;
+}
+
+.home-img {
+    width: 40%;
+    margin-right: 100px;
+}
+
+.home-img img {
+    width: 100%;
+    height: auto;
+}
+
+.home-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #DAA520;
+    text-decoration: none;
+    border-radius: 4px;
+    border: #DAA520 groove;
+    transition: background-color 0.3s ease;
+    font-size: 30px;
+}
+
+.home-button a:hover {
+    background-color: #726E6D;
+}
+
+
+/* About section styling */
+
+.about {
+    padding: 40px 0;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.about h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.about h2 span {
+    color: #DAA520;
+    margin-left: 10px;
+}
+
+
+/* me */
+
+.me {
+    margin-bottom: 50px;
+    color: #fff;
+    float: left;
+}
+
+.me-img {
+    width: 50%;
+    margin-left: 350px;
+    margin-bottom: 100px;
+}
+
+.me-img span {
+    color: #DAA520;
+}
+
+.me-img img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Interest */
+
+.interest {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: small;
+}
+
+.interest h1 {
+    /* text-align: center; */
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.interest-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.interest-section h3 {
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.interest-section p {
+    text-align: center;
+    color: #fff;
+}
+
+.experience {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    /* float: right; */
+    font-size: small;
+}
+
+.experience h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #fff;
+    float: right;
+}
+
+.experience-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.experience-section h3 span {
+    color: #DAA520;
+}
+
+.experience-section p {
+    text-align: center;
+    color: #999;
+}
+
+
+/* Skills section styling */
+
+.skills {
+    padding: 40px 0;
+    margin-top: 100px;
+}
+
+.skills h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+
+/* Skills Section */
+
+.skills {
+    background-color: #34282C;
+    text-align: center;
+}
+
+.skills h2 {
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.skills h2 span {
+    color: #DAA520;
+}
+
+.web-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    color: #fff;
+}
+
+.css-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    color: #fff;
+}
+
+.js-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    color: #fff;
+}
+
+.figma-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    color: #fff;
+}
+
+
+/* Portfolio Section Styles */
+
+.portfolio-section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.portfolio-section h2 {
+    color: #fff;
+    width: 70%;
+    font-size: 30px;
+}
+
+.portfolio-section h3 {
+    color: #fff;
+    width: 63%;
+    font-size: 30px;
+}
+
+.Portfolio .heading {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 40px;
+}
+
+.Portfolio .heading span {
+    color: #DAA520;
+    margin-left: 10px;
+}
+
+
+/* Testimony Section */
+
+.testimony {
+    color: #DAA520;
+    background-color: #34282C;
+    padding: 50px 0;
+    text-align: center;
+    float: left;
+    text-align: center;
+}
+
+.review-1 {
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.review-1 p {
+    margin-bottom: 20px;
+}
+
+
+/* Formulir */
+
+.formulir {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.input-box {
+    margin-bottom: 20px;
+}
+
+.input-field {
+    position: relative;
+}
+
+.input-field input,
+.input-field textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.textarea-field textarea {
+    resize: none;
+}
+
+.submit-btn {
+    text-align: center;
+}
+
+.submit-btn .btn {
+    padding: 10px 20px;
+    background-color: #DAA520;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn .btn:hover {
+    background-color: #726E6D;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contactme h2 {
+    margin-bottom: 30px;
+}
+
+.contactme .line {
+    height: 1px;
+    background-color: #fff;
+    margin: 20px 0;
+}
+
+.contactme .email,
+.contactme .telephone,
+.contactme .location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.contactme .email img,
+.contactme .telephone img,
+.contactme .location img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.bottom {
+    margin-top: 30px;
+}
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+:root {
+    --primary: rgb(128, 128, 128);
+    --bg: #fafafa;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: popins, sans-serif;
+    background-color: #34282C;
+    color: #34282C;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 7%;
+    background-color: rgba(1, 1, 1, 0.8);
+    border-bottom: 1px solid #513c28;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+}
+
+.navbar .navbar-logo {
+    font-size: 1.5rem;
+    color: #DAA520;
+    font-style: italic;
+}
+
+.navbar .navbar-nav a {
+    color: #726E6D;
+    padding: 5px 50px;
+    display: inline-block;
+    font-size: 1.2rem;
+    margin: 0 1rem;
+}
+
+.navbar .navbar-nav a:hover {
+    color: var(--primary);
+    color: #fafafa;
+    background-color: #DAA520;
+}
+
+.navbar .navbar-nav a::after {
+    content: "";
+    display: block;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.1rem solid var(--primary);
+    transform: scaleX(0);
+}
+
+.navbar .navbar-nav a:hover::after {
+    transform: scaleX(0.5);
+    transition: 0.2s linear;
+}
+
+.navbar .navbar-extra a {
+    color: #726E6D;
+    margin: 0 0.5rem;
+    margin-left: 20px;
+}
+
+.navbar .navbar-extra a:hover {
+    color: #DAA520;
+}
+
+#hamburger-menu {
+    display: none;
+}
+
+
+/* laptop */
+
+@media (max-width: 1366px) {
+    html {
+        font-size: 75%;
+    }
+}
+
+
+/* tablet */
+
+@media (max-width: 768px) {
+    html {
+        font-size: 62.5%;
+    }
+    #hamburger-menu {
+        display: inline-block;
+    }
+    .navbar .navbar-nav {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        background-color: rgb(239, 237, 237);
+        width: 30rem;
+        height: 100vh;
+        transition: 0.5s;
+    }
+    .navbar .navbar-nav.active {
+        right: 0;
+    }
+    .navbar .navbar-nav a {
+        color: #060606;
+        display: block;
+        margin: 1.5rem;
+        padding: 0.5rem;
+        font-size: 1.5rem;
+    }
+    .navbar .navbar-nav a::after {
+        transform-origin: 0 0;
+    }
+    .navbar .navbar-nav a:hover::after {
+        transform: scaleX(0.2);
+    }
+}
+
+
+/* mobile */
+
+@media (max-width: 450px) {
+    html {
+        font-size: 55%;
+    }
+}
